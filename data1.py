@@ -1075,8 +1075,6 @@ def test_multi_channel_split_model(model, modelpath, X1_test, X2_test, demograph
         costplots(y_test, y_pred, r2, rmse, name)
 
 
-
-
 demgras_dim = demographics.shape[1]
 print demgras_dim
 #%s:%s_multichannel_model_bestmodel_%sisdays_%sinit_%strainable_%fdpt_%flr_%dfz_%dfn_%dmaxlen_%ddim_%sfilter_%stransform_%sbatch'%(MID,SID,args.isdays,args.init, args.trainable, args.dpt, args.lr, args.fz, args.fn, args.maxlen, args.dim, args.filter, args.transform,args.batchsize)
